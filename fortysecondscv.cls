@@ -338,7 +338,7 @@
 \newcommand{\nameandjob}{%
 	{\huge\color{maincolor}\cvname}\par%
 	\setlength{\parskip}{2ex}
-	{\Large\color{black!80}\cvjobtitle}\par%
+    {\Large\color{black!80}\cvjobtitle{}}\par%
 	\setlength{\parskip}{1ex}
 }
 
