@@ -36,11 +36,11 @@
 \ifxetexorluatex
 	\usepackage{fontspec}
 	\defaultfontfeatures{Ligatures=TeX}
-%	\newfontfamily\headingfont[Path = fonts/]{segoeuib.ttf} % local font
+	%	\newfontfamily\headingfont[Path = fonts/]{segoeuib.ttf} % local font
 \else
 	\usepackage[utf8]{inputenc}
 	\usepackage[T1]{fontenc}
-%	\usepackage[sfdefault]{noto} % use noto google font
+	%	\usepackage[sfdefault]{noto} % use noto google font
 \fi
 
 % enable mathematical syntax for some symbols like \varnothing
@@ -100,31 +100,31 @@
 %                              SIDEBAR 2nd PAGE
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
-
 	\profilesection{Skills}
-		\pointskill{\faLinux}{Linux}{3}[4]
-			\skill[1.8em]{\faCaretRight}{Arch, i3}
-			\skill[1.8em]{\faCaretRight}{Vim, Bash}
-        \pointskill{\faPython}{Python}{3}[4]
-			\skill[1.8em]{\faCaretRight}{NumPy, SciPy, Matplotlib}
-			\skill[1.8em]{\faCaretRight}{Scikit-learn, Tensorflow}
-			\skill[1.8em]{\faCaretRight}{Jupyter Notebook}
-		\pointskill{\faCogs}{Machine learning}{2}[4]
-			\skill[1.8em]{\faCaretRight}{Data collection}
-			\skill[1.8em]{\faCaretRight}{Data visualization}
-			\skill[1.8em]{\faCaretRight}{EDA}
-			\skill[1.8em]{\faCaretRight}{Performance metrics}
-        \pointskill{\faChrome}{Web development}{2}[4]
-			\skill[1.8em]{\faCaretRight}{HTML, CSS, JS, PHP}
-			\skill[1.8em]{\faCaretRight}{JQ, AJAX, Bootstrap}
-			\skill[1.8em]{\faCaretRight}{MySQL}
-        \pointskill{\faJava}{Java}{2}[4]
-			\skill[1.8em]{\faCaretRight}{Android development}
-        \pointskill{\faWindows}{.NET}{2}[4]
-            \skill[1.8em]{\faCaretRight}{C\#}
-            \skill[1.8em]{\faCaretRight}{F\#}
-		\pointskill{\faHandshake}{Multi-agent system}{2}[4]
-		\pointskill{\faCuttlefish}{C++}{1}[4]
+	\pointskill{\faLinux}{Linux}{3}[4]
+	\skill[1.8em]{\faCaretRight}{Arch, i3}
+	\skill[1.8em]{\faCaretRight}{Vim, Bash}
+	\pointskill{\faPython}{Python}{3}[4]
+	\skill[1.8em]{\faCaretRight}{NumPy, SciPy, Matplotlib}
+	\skill[1.8em]{\faCaretRight}{Scikit-learn, Tensorflow}
+	\skill[1.8em]{\faCaretRight}{Jupyter Notebook}
+	\pointskill{\faCogs}{Data science}{2}[4]
+	\skill[1.8em]{\faCaretRight}{Recommender systems}
+	\skill[1.8em]{\faCaretRight}{Data collection}
+	\skill[1.8em]{\faCaretRight}{Data visualization}
+	\skill[1.8em]{\faCaretRight}{EDA}
+	\skill[1.8em]{\faCaretRight}{Performance metrics}
+	\pointskill{\faChrome}{Web development}{2}[4]
+	\skill[1.8em]{\faCaretRight}{HTML, CSS, JS, PHP}
+	\skill[1.8em]{\faCaretRight}{JQ, AJAX, Bootstrap}
+	\skill[1.8em]{\faCaretRight}{MySQL}
+	\pointskill{\faJava}{Java}{2}[4]
+	\skill[1.8em]{\faCaretRight}{Android development}
+	\pointskill{\faWindows}{.NET}{2}[4]
+	\skill[1.8em]{\faCaretRight}{C\#}
+	\skill[1.8em]{\faCaretRight}{F\#}
+	\pointskill{\faHandshake}{Multi-agent system}{2}[4]
+	\pointskill{\faCuttlefish}{C++}{1}[4]
 
 
 
@@ -188,7 +188,17 @@
 %-------------------------------------------------------------------------------
 \begin{document}
 
-\makefrontsidebar
+\par
+\makefrontsidebar{}
+
+\cvsection{Working Experience}
+\begin{cvtable}[1.5]
+
+
+	\cvitem{08.2020 -- now}{Recommender systems engeneer}{IT Service, startup}
+	{Creating and evaluating news \& videos recommender systems.}
+
+\end{cvtable}
 
 \cvsection{Internships}
 \begin{cvtable}[1.5]
@@ -196,12 +206,12 @@
 	% \cvitem{currently}{}{}{}
 
 	\cvitem{08.2019 -- 12.2019}{Machine learning intern}{JetBrains}
-        {Predict core properties (type, carbonate, ruin, saturation) 
-        using core samples images.}
+	{Predict core properties (type, carbonate, ruin, saturation)
+		using core samples images.}
 
 	\cvitem{07.2019 -- 08.2019}{Machine learning intern}{Belkasoft}
-        {Collect data and train algorithm to find pictures that 
-        contain circles and arrows on them.}
+	{Collect data and train algorithm to find pictures that
+		contain circles and arrows on them.}
 \end{cvtable}
 
 
@@ -210,39 +220,43 @@
 \cvsubsection{Study}
 \begin{cvtable}[1.5]
 	\cvitem{2017 -- now}{Bachelor Studies}{Saint Petersburg State University}
-		{Software and Administration of Information Systems,
-        Department of Information and Analytical Systems.}
+	{Software and Administration of Information Systems,
+		Department of Information and Analytical Systems.}
 	\cvitem{}{Coursework Theses}{Department of Information and Analytical Systems.}
-		{Automatic core samples classification.}
+	{Automatic core samples classification.}
 
 	\cvitem{2014 -- 2017}{Secondary education}{Physics and Mathematics Lyceum No. 239}
-		{ }
+	{ }
 \end{cvtable}
 
 \cvsubsection{Online courses}
 \begin{cvtable}[1.5]
+	\cvitem{2020 -- now}{Introduction to Recommender Systems}{University of Minnesota}
+	{Non-Personalized and Content-Based recommenders.}
+	\cvitem{2020 -- now}{Algorithms. Theory and practice. Methods}{Computer Science Center}
+	{Algorithms introduction.}
 	\cvitem{2020 -- now}{Programming in C++}{Computer Science Center}
-		{Main concepts of C++.}
+	{Main concepts of C++.}
 	\cvitem{2019 -- now}{Training on labeled data}{MIPT}
-		{Supervised learning models: linear models, decision trees,
-        models composition.}
+	{Supervised learning models: linear models, decision trees,
+		models composition.}
 	\cvitem{2020}{Linux Fundamentals}{Paul Cobbaut}
-		{Introduction to using Linux from the command line.}
+	{Introduction to using Linux from the command line.}
 	\cvitem{2020}{Web development for beginners}{ITC}
-		{Basics of web development.}
+	{Basics of web development.}
 	\cvitem{2019}{Mathematics and python for data analysis}{MIPT}
-		{Refresh mathematics knowledge applied in data analysis and 
-        review python libraries that are related.}
+	{Refresh mathematics knowledge applied in data analysis and
+		review python libraries that are related.}
 	\cvitem{2019}{Introduction to TensorFlow}{deeplearning.ai}
-		{Examples of how to work with TensorFlow library.}
+	{Examples of how to work with TensorFlow library.}
 \end{cvtable}
 
 \cvsubsection{Offline courses}
 \begin{cvtable}[1.5]
 	\cvitem{2016}{Student STAR Program-Russia CoE track}{EMC}
-		{Project management course.}
+	{Project management course.}
 	\cvitem{2015 -- 2016}{Samsung IT School}{Samsung}
-		{Android development course.}
+	{Android development course.}
 \end{cvtable}
 
 % \cvsection{Publications}
@@ -263,28 +277,32 @@
 
 \cvsection{Projects}
 \begin{cvtable}[1.5]
-    \cvitem{2020}{\href{https://github.com/SmirnovAlexander/Tetris}{Tetris}}{}
-        {Terminal tetris game for *nix operating system.}
-    \cvitem{2019}{\href{https://github.com/SmirnovAlexander/EmojiCommunicator}{Emoji communicator}}{}
-        {Visualizing text with emoji letters.}
-    \cvitem{2019}{\href{https://github.com/SmirnovAlexander/OneShotLearningSiameseNetworks}{Siamese Neural Networks}}{}
-        {Implementation of siamese network for one-shot learning task.}
-    \cvitem{2019}{\href{https://github.com/SmirnovAlexander/WebsiteClassifier}{Classifying browser extension}}{}
-        {Browser extension that allows you to classify site if it is suitable for children to watch.}
-    \cvitem{2018 -- 2019}{\href{https://github.com/SmirnovAlexander/MemDer}{Android meme application}}{}
-        {An android app that show memes depending on your preferences.}
-    \cvitem{2018 -- 2019}{\href{https://github.com/SmirnovAlexander/SuperManager}{Custom file manager}}{}
-        {It illustrates a bunch of programming patterns and optimization techniques.}
+	\cvitem{2020}{\href{https://github.com/SmirnovAlexander/Tetris}{Tetris}}{}
+	{Terminal tetris game for *nix operating system.}
+	\cvitem{2019}{\href{https://github.com/SmirnovAlexander/EmojiCommunicator}{Emoji communicator}}{}
+	{Visualizing text with emoji letters.}
+	\cvitem{2019}{\href{https://github.com/SmirnovAlexander/OneShotLearningSiameseNetworks}{Siamese Neural Networks}}{}
+	{Implementation of siamese network for one-shot learning task.}
+	\cvitem{2019}{\href{https://github.com/SmirnovAlexander/WebsiteClassifier}{Classifying browser extension}}{}
+	{Browser extension that allows you to classify site if it is suitable for children to watch.}
+	\cvitem{2018 -- 2019}{\href{https://github.com/SmirnovAlexander/MemDer}{Android meme application}}{}
+	{An android app that show memes depending on your preferences.}
+	\cvitem{2018 -- 2019}{\href{https://github.com/SmirnovAlexander/SuperManager}{Custom file manager}}{}
+	{It illustrates a bunch of programming patterns and optimization techniques.}
 \end{cvtable}
 
 \cvsection{Achievements}
 \begin{cvtable}
+
 	\cvitem{2019}{Took 2nd place}{PhotoLab PhotoHack}
-        {The goal was to make a program that help user
-        to express themselves in chats.}
+	{Program that help users
+		to express themselves in chats.}
+
 	\cvitem{2018}{Made it to finals}{VK Hackathon}
-        {The goal was to make an entertaining app.}
+	{The goal was to make an entertaining app.}
+
 \end{cvtable}
+
 
 \cvsignature
 
