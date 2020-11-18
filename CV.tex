@@ -25,6 +25,7 @@
 	% logoposition=before,
 ]{fortysecondscv}
 
+
 % improve word spacing and hyphenation
 \usepackage{microtype}
 \usepackage{ragged2e}
@@ -228,6 +229,11 @@
 	{ }
 \end{cvtable}
 
+\newpage
+\makebacksidebar
+
+\cvsection{Education}
+
 \cvsubsection{Online courses}
 \begin{cvtable}[1.5]
 	\cvitem{2020 -- now}{Introduction to Recommender Systems}{University of Minnesota}
@@ -265,14 +271,26 @@
 % 	\cvpubitem{Pandastasia}{Still Me}{Bamboo Books Assoc.}{2005}
 % \end{cvtable}
 
-\newpage
-\makebacksidebar
 % \newgeometry{
 % 	top=\topbottommargin,
 % 	bottom=\topbottommargin,
 % 	right=\leftrightmargin,
 % 	left=\leftrightmargin
 % }
+
+\addtobacksidebar{}
+
+\newpage
+\begin{sidebar}
+    \nameandjob
+
+    \setlength{\parskip}{1ex}
+
+    \profilesection{About Me}
+	\aboutme{
+        \faHeart{} programming
+	}
+\end{sidebar}
 
 \cvsection{Projects}
 \begin{cvtable}[1.5]
