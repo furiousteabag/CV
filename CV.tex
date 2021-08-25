@@ -110,11 +110,13 @@
 % \cvlogopic{pics/profile.jpg}
 
 \cvbirthday{May 21, 1999}
-\cvaddress{Russia, Saint Petersburg} % Use \newline if more than 1 line is required
-\cvcustomdata{\faGithub}{\href{https://github.com/SmirnovAlexander}{SmirnovAlexander}}
+% \cvcustomdata{\faMapMarker}{Russia}
+\cvcustomdata{\faGlobe}{Russia}
+\cvcustomdata{\faLinkedin}{\href{https://www.linkedin.com/in/smirnovalexanderlvovich/}{smirnovalexanderlvovich}}
 \cvmail{ru.alexander.smirnov@gmail.com}
 \cvcustomdata{\faTelegram}{\href{https://t.me/furiousteabag}{@furiousteabag}}
-\cvphone{+79119727982}
+\cvcustomdata{\faGithub}{\href{https://github.com/SmirnovAlexander}{SmirnovAlexander}}
+% \cvphone{+79119727982}
 
 % personal website
 % \cvsite{https://pandascience.net}
@@ -153,49 +155,43 @@
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
 	\profilesection{Skills}
-	\pointskill{\faLinux}{Linux}{3}[4]
-	\skill[1.8em]{\faCaretRight}{arch, i3}
-	\skill[1.8em]{\faCaretRight}{vim, zsh}
+	\pointskill{\faLinux}{Linux}{4}[4]
+	\skill[1.8em]{\faCaretRight}{arch, i3, vim, zsh}
 	\pointskill{\faPython}{Python}{3}[4]
-	\skill[1.8em]{\faCaretRight}{scikit-learn, matplotlib}
-	\skill[1.8em]{\faCaretRight}{nltk, gensim}
-	\skill[1.8em]{\faCaretRight}{tensorflow}
-	\skill[1.8em]{\faCaretRight}{surprise}
-	\skill[1.8em]{\faCaretRight}{flask}
-	\skill[1.8em]{\faCaretRight}{jupyter notebook}
-	\pointskill{\faThumbsUp}{Recommender Systems}{3}[4]
-	\skill[1.8em]{\faCaretRight}{collaborative filtering}
-	\skill[1.8em]{\faCaretRight}{content-based filtering}
-	\skill[1.8em]{\faCaretRight}{session filtering}
-	\skill[1.8em]{\faCaretRight}{cold start}
-	\skill[1.8em]{\faCaretRight}{matrix factorization}
-	\pointskill{\faCogs}{Machine Learning}{2}[4]
-	\skill[1.8em]{\faCaretRight}{supervised learning}
-	\skill[1.8em]{\faCaretRight}{clustering}
-	\skill[1.8em]{\faCaretRight}{dimensionality reduction}
-	\skill[1.8em]{\faCaretRight}{data visualization}
+	\skill[1.8em]{\faCaretRight}{numpy, scikit-learn, matplotlib}
+	\skill[1.8em]{\faCaretRight}{pycaret, optuna}
+	\skill[1.8em]{\faCaretRight}{nltk, gensim, surprise}
+	\skill[1.8em]{\faCaretRight}{pytorch}
+	\skill[1.8em]{\faCaretRight}{flask, fastAPI}
+	% \pointskill{\faThumbsUp}{Recommender Systems}{3}[4]
+	% \skill[1.8em]{\faCaretRight}{collaborative filtering}
+	% \skill[1.8em]{\faCaretRight}{content-based filtering}
+	% \skill[1.8em]{\faCaretRight}{session filtering}
+	% \skill[1.8em]{\faCaretRight}{cold start}
+	% \skill[1.8em]{\faCaretRight}{matrix factorization}
+	\pointskill{\faCogs}{Machine Learning}{3}[4]
 	\skill[1.8em]{\faCaretRight}{EDA}
+	\skill[1.8em]{\faCaretRight}{supervised learning}
+	\skill[1.8em]{\faCaretRight}{unsupervised learning}
+	\skill[1.8em]{\faCaretRight}{recommender systems}
+	\skill[1.8em]{\faCaretRight}{A/B testing}
 	\pointskill{\faCode}{Development}{2}[4]
 	\skill[1.8em]{\faCaretRight}{gitlab, CI / CD}
-	\skill[1.8em]{\faCaretRight}{k8s}
-	\skill[1.8em]{\faCaretRight}{microservices}
+	\skill[1.8em]{\faCaretRight}{k8s, microservices}
 	\pointskill{\faDatabase}{DBMS}{2}[4]
-	\skill[1.8em]{\faCaretRight}{MySQL}
-	\skill[1.8em]{\faCaretRight}{MongoDB}
-	\skill[1.8em]{\faCaretRight}{ClickHouse}
-	\skill[1.8em]{\faCaretRight}{Redis}
-	\skill[1.8em]{\faCaretRight}{Amazon S3}
-	\skill[1.8em]{\faCaretRight}{Oracle}
-	\pointskill{\faChrome}{Web Development}{2}[4]
-	\skill[1.8em]{\faCaretRight}{HTML, CSS, JS}
-	\skill[1.8em]{\faCaretRight}{JQ, AJAX, bootstrap}
-	\pointskill{\faWindows}{.NET}{2}[4]
-	\skill[1.8em]{\faCaretRight}{C\#}
-	\skill[1.8em]{\faCaretRight}{F\#}
-	\pointskill{\faHandshake}{Multi-agent Systems}{2}[4]
-	\pointskill{\faJava}{Java}{1}[4]
-	\skill[1.8em]{\faCaretRight}{android development}
-	\pointskill{\faCuttlefish}{C++}{1}[4]
+	\skill[1.8em]{\faCaretRight}{MySQL, Oracle, PostgreSQL}
+	\skill[1.8em]{\faCaretRight}{MongoDB, ClickHouse, Vertica}
+	\skill[1.8em]{\faCaretRight}{Redis, Amazon S3}
+	% \pointskill{\faChrome}{Web Development}{2}[4]
+	% \skill[1.8em]{\faCaretRight}{HTML, CSS, JS}
+	% \skill[1.8em]{\faCaretRight}{JQ, AJAX, bootstrap}
+	% \pointskill{\faWindows}{.NET}{2}[4]
+	% \skill[1.8em]{\faCaretRight}{C\#}
+	% \skill[1.8em]{\faCaretRight}{F\#}
+	% \pointskill{\faHandshake}{Multi-agent Systems}{2}[4]
+	% \pointskill{\faJava}{Java}{1}[4]
+	% \skill[1.8em]{\faCaretRight}{android development}
+	% \pointskill{\faCuttlefish}{C++}{1}[4]
 
 
 
@@ -279,7 +275,7 @@
 
 
     \cvitem{08.2020 -- 04.2021 \\ \difftoday{2021}{04}{30}{2020}{08}{05}}
-        {Recommender Systems Engineer}
+        {Machine Learning Engineer}
         {\href{https://yarus.ru/}
          {IT Service, startup}}
         {Researching, evaluating and ensembling different approaches for builiding news \& videos recommender systems. \\
@@ -332,23 +328,27 @@
 
 \cvsubsection{Study}
 \begin{cvtable}[1.5]
+	\cvitem{2021 -- now}
+        {Master's degree}
+        {Moscow Institute of Physics and Technology}
+        {Artificial Intelligence}
 	\cvitem{2017 -- 2021}
-        {Bachelor Studies}
+        {Bachelor's degree}
         {Saint Petersburg State University}
-        {Software and Administration of Information Systems,
-         Department of Information and Analytical Systems}
-        \cvitem{}
-            {\colorbox{cvsidecolor}{GPA: 4.7}}
-            {}
-            {}
+        {Computer Software Engineering}
+        % {Software and Administration of Information Systems}
+        % \cvitem{}
+        %     {\colorbox{cvsidecolor}{GPA: 4.7}}
+        %     {}
+        %     {}
         \cvitem{}
             {\href{https://github.com/SmirnovAlexander/RecommenderSystemPaper/blob/master/paper/paper.pdf}
-            {Bachelor's Thesis}}
+            {\textit{Bachelor's thesis}}}
             {Department of Information and Analytical Systems}
-            {A hybrid approach for news recommender system using optimization methods}
+            {A hybrid approach for news recommender system using \\ optimization methods}
         \cvitem{}
             {\href{https://github.com/SmirnovAlexander/JBCoreSamples/blob/master/papers/text/AutomaticCoreSamplesClassification\%20-\%20diploma.pdf}
-            {Coursework Thesis}}
+            {\textit{Coursework thesis}}}
             {Department of Information and Analytical Systems}
             {Automatic core samples classification}
 	\cvitem{2014 -- 2017}
@@ -363,41 +363,50 @@
 
 \cvsubsection{Online courses}
 \begin{cvtable}[1.5]
+	% \cvitem{2020 -- now}
+        % {Introduction to Recommender Systems}
+        % {University of Minnesota}
+        % {Non-Personalized and Content-Based recommenders}
+	% \cvitem{2020 -- now}
+        % {Algorithms. Theory and Practice. Methods}
+        % {Computer Science Center}
+        % {Algorithms introduction}
+	% \cvitem{2020 -- now}
+        % {Programming in C++}
+        % {Computer Science Center}
+        % {Main concepts of C++}
 	\cvitem{2021 -- now}
-        {Unsupervised Learning}
-        {MIPT}
+        {Sequence Models}
+        {Coursera}
+        {NLP, LSTM, GRU, RNN, attention models}
+	\cvitem{2021 -- now}
+        {Stats for Data Analysis}
+        {Coursera}
+        {A/B testing, correlation and dependence, statistical hypothesis testing, statistics}
+	\cvitem{2021}
+        {\href{https://www.coursera.org/account/accomplishments/certificate/BADWME4J7J8E}
+        {Unsupervised Learning}}
+        {Coursera}
         {Clustering, matrix factorization, topic modelling, outliers 
          searching and visualizations}
-	\cvitem{2020 -- now}
-        {Introduction to Recommender Systems}
-        {University of Minnesota}
-        {Non-Personalized and Content-Based recommenders}
-	\cvitem{2020 -- now}
-        {Algorithms. Theory and Practice. Methods}
-        {Computer Science Center}
-        {Algorithms introduction}
-	\cvitem{2020 -- now}
-        {Programming in C++}
-        {Computer Science Center}
-        {Main concepts of C++}
     \cvitem{2021}
-        {\href{https://coursera.org/share/e50e6899962fe4d392fe65f6d9a60472}
+        {\href{https://coursera.org/share/f90c8676dcf8c9e33dfe0443387988ef}
         {Supervised Learning}}
-        {MIPT}
+        {Coursera}
         {Supervised learning models: linear models, decision trees, models composition}
     \cvitem{2020}
         {\href{https://stepik.org/cert/321173}
         {Web Development for Beginners}}
-        {ITC}
+        {Stepik}
         {Basics of web development}
     \cvitem{2019}
         {\href{https://coursera.org/share/faf5859452fbdda8a36084effc34793a}
         {Mathematics and Python}}
-        {MIPT}
+        {Coursera}
         {Mathematics and python libraries applied in data analysis}
 	\cvitem{2019}
         {Introduction to TensorFlow}
-        {deeplearning.ai}
+        {Coursera}
         {Examples of how to work with TensorFlow library}
 \end{cvtable}
 
@@ -413,7 +422,7 @@
         {Student STAR Program-Russia CoE track}}
         {EMC}
         {Project management course}
-    \cvitem{2015 -- 2016}
+    \cvitem{2016}
         {\href{https://myitschool.ru/}
         {Samsung IT School}}
         {Samsung}
@@ -484,28 +493,36 @@
         {\href{https://github.com/SmirnovAlexander/WebsiteClassifier}
         {Classifying Browser Extension}}{}
         {Browser extension that allows you to classify site if it is suitable for children to watch}
-	\cvitem{2018 -- 2019}
+	\cvitem{2019}
         {\href{https://github.com/SmirnovAlexander/MemDer}
         {Android Meme Application}}{}
         {An android app that show memes depending on your preferences}
-	\cvitem{2018 -- 2019}
+	\cvitem{2018}
         {\href{https://github.com/SmirnovAlexander/SuperManager}
         {Custom File Manager}}{}
         {Illustrates a bunch of programming patterns and optimization techniques}
 \end{cvtable}
 
 \cvsection{Achievements}
-\begin{cvtable}
+\begin{cvtable}[1.5]
+	\cvitem{2021}
+        {Winner}
+        {I'm Professional}
+        {Artificial Intelligence track}
+	\cvitem{2021}
+        {7.5}
+        {IELTS}
+        {Academic Training}
 	\cvitem{2019}
         {\href{https://github.com/SmirnovAlexander/EmojiCommunicator}
         {2nd place}}
         {PhotoLab PhotoHack}
-        {\empty}
+        {Program that help users to express themselves in chats}
 	\cvitem{2018}
         {\href{https://github.com/SmirnovAlexander/MemDer}
         {Finals}}
         {VK Hackathon}
-        {\empty}
+        {Entertaining app}
 \end{cvtable}
 
 \cvsection{Hackathons}
