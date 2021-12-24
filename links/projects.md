@@ -19,6 +19,13 @@ user >> What do you think on mexicans?
 bot  >> They like mexican. That means they like me. It’d be nice if they were allowed to vote.
 ```
 
+## [Android Meme Application](https://github.com/SmirnovAlexander/MemDer)
+
+An android app that show memes depending on your preferences
+
+![](https://user-images.githubusercontent.com/32129186/55136074-7688a680-513e-11e9-884f-e2737bd4ab37.gif)
+
+
 ## [Tetris](https://github.com/SmirnovAlexander/Tetris)
 
 Terminal tetris game for \*nix operating system
@@ -35,12 +42,6 @@ python make_gif.py -t "I'll kill you if you don't get the phone"
 
 ![](https://user-images.githubusercontent.com/32129186/68718909-b57b4780-05bb-11ea-9de9-b358e405c6d7.gif)
 
-
-## [Android Meme Application](https://github.com/SmirnovAlexander/MemDer)
-
-An android app that show memes depending on your preferences
-
-![](https://user-images.githubusercontent.com/32129186/55136074-7688a680-513e-11e9-884f-e2737bd4ab37.gif)
 
 ## [Custom File Manager](https://github.com/SmirnovAlexander/SuperManager)
 
